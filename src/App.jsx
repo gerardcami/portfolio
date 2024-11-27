@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { BriefcaseBusiness, FolderCode, UserRound, Mail } from "lucide-react";
+import { BriefcaseBusiness, Code, UserRound, Mail } from "lucide-react";
 import "./App.css";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
                 <a href="#experience">Experience</a>
               </li>
               <li>
-                <FolderCode />
+                <Code />
                 <a href="#projects">Projects</a>
               </li>
               <li>
