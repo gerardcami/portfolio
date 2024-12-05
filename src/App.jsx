@@ -1,7 +1,7 @@
 import { ReactLenis, useLenis } from "lenis/react";
 import "lenis/dist/lenis.css";
 import "./App.css";
-import { StatusIndicator } from "./components/StatusIndicator";
+import { WorkStatusIndicator } from "./components/WorkStatusIndicator";
 import { SocialLinks } from "./components/SocialLinks";
 import { links } from "./data/socialLinks";
 
@@ -31,10 +31,8 @@ function App() {
             <br />
             Actualmente en busca de empleo.
           </div>
-          <StatusIndicator text="Disponible para trabajar" />
-          <div className="mt-4">
-            <SocialLinks links={links} />
-          </div>
+          <WorkStatusIndicator status="looking" className="mt-4" />
+          <SocialLinks links={links} className="mt-4" />
         </section>
         <section id="experience">{/* Experience */}</section>
         <section id="projects">{/* Projects */}</section>
