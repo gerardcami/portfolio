@@ -3,22 +3,22 @@ import { Mail, Linkedin, Github, Scroll } from "lucide-react";
 export const links = [
   {
     url: "https://www.linkedin.com/in/yourprofile",
-    icon: <Linkedin className="text-gray-400" />,
+    icon: <Linkedin className="box-content p-2 text-gray-400" />,
     tooltip: "LinkedIn",
   },
   {
     url: "https://github.com/yourprofile",
-    icon: <Github className="text-gray-400" />,
+    icon: <Github className="box-content p-2 text-gray-400" />,
     tooltip: "GitHub",
   },
   {
     url: "mailto:youremail@example.com",
-    icon: <Mail className="text-gray-400" />,
+    icon: <Mail className="box-content p-2 text-gray-400" />,
     tooltip: "Email",
   },
   {
     url: "https://read.cv/yourprofile",
-    icon: <Scroll className="text-gray-400" />,
+    icon: <Scroll className="box-content p-2 text-gray-400" />,
     tooltip: "Read.cv",
   },
   {
@@ -28,7 +28,7 @@ export const links = [
         width="24px"
         height="24px"
         viewBox="0 0 24 24"
-        className="text-gray-400"
+        className="box-content p-2 text-gray-400"
         data-astro-cid-ivsf4auf=""
         data-icon="simple-icons:bento"
       >
