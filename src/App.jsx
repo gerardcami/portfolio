@@ -9,7 +9,7 @@ function App() {
 
   return (
     <ReactLenis>
-      <main className="min-h-screen max-w-[1120px] lg:mx-auto">
+      <main className="min-h-screen max-w-[1120px] space-y-36 lg:mx-auto lg:space-y-48 dark:text-[#fafaf9]">
         <Profile />
         <Experience />
         <section id="projects">{/* Projects */}</section>

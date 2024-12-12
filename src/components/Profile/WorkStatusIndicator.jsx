@@ -12,7 +12,7 @@ export const WorkStatusIndicator = ({ status, className = " " }) => {
   };
 
   return (
-    <div className={`${className} text-neutral-900 dark:text-white`}>
+    <div className={`${className}`}>
       <span className="inline-flex items-center rounded-md border border-[#FFFFFF1A] px-2 py-0 text-xs font-semibold">
         <span className="mr-1 flex h-3 w-3 items-center">
           <span
